@@ -9,6 +9,8 @@ if 'key' not in st.session_state:
 
 num1 = st.session_state['key']
 
+num1 = str(num1)
+
 def pv_static(fig,name=num1+'graph'):
     h1=fig.height
     h1=int(h1.replace('px',''))
